@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 import Card from '../components/mouse-parallax'
+import BarAnimation from '../components/bar-animation'
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Card></Card>
+    <BarAnimation></BarAnimation>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
